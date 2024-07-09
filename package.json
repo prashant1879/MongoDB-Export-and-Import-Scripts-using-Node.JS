@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "drop": "node drop.js",
-    "export": "node export.js",
-    "import": "node import.js"
+    "drop": "node dropDatabase.js",
+    "export": "node exportCollections.js",
+    "import": "node importCollections.js"
   },
   "keywords": [
     "mongodb",
