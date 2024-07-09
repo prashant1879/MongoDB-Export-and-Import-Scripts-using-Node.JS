@@ -1,0 +1,27 @@
+{
+  "name": "mongodb-export-import-and-drop-collections",
+  "version": "1.0.0",
+  "description": "Monodb Export, Import & Drop Collections in simple way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "drop": "node drop.js",
+    "export": "node export.js",
+    "import": "node import.js"
+  },
+  "keywords": [
+    "mongodb",
+    "exportCollections",
+    "importCollections",
+    "dropCollections"
+  ],
+  "author": "Prashant Suthar",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.5.0",
+    "path": "^0.12.7"
+  }
+}
