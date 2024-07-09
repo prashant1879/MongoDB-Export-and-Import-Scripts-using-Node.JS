@@ -13,8 +13,8 @@ This project contains Node.js scripts for exporting, importing, and dropping Mon
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/prashant1879/MongoDB-Export-and-Import-Scripts-using-Node.JS.git
+    cd MongoDB-Export-and-Import-Scripts-using-Node.JS
     ```
 
 2. Install dependencies:
